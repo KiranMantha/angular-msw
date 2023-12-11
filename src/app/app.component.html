@@ -1,0 +1,10 @@
+<main>
+  <div>users from msw mock api response</div>
+  <ul *ngIf="users.length">
+    <li *ngFor="let user of users">
+      {{ user.name }}
+    </li>
+  </ul>
+</main>
+
+<router-outlet></router-outlet>
